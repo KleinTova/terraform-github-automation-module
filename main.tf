@@ -14,12 +14,12 @@ provider "github" {
   alias = "github"
 }
 
-module "repositories" {
+module "repository" {
   providers = {
     github = github.github
   }
   depends_on = [ module.teams ]
-  source = "./modules/repositories"
+  source = "./modules/repository"
   github_token = var.github_token
   repo = {
     name               = var.repo.name

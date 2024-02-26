@@ -5,7 +5,7 @@ This repository contains a Terraform module integrated with Git, designed to sim
 
 * **Efficiency through Modularity:** Simplifies creation and management of GitHub infrastructure components.
 
-* **Consistency and Scalability:** Ensures consistent and scalable environments by configuring teams, access permissions, repositories, and branch protections with code.
+* **Consistency and Scalability:** Ensures consistent and scalable environments by configuring teams, access permissions, repository, and branch protections with code.
 
 * **Streamlined Setup and Reproducibility:** Enables reproducibility across various projects by streamlining setup processes.
 
